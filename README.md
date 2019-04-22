@@ -1,12 +1,6 @@
 # Server-Status
 
 
-**Known Problems:**
-No Known problems.
-
-**ToDo:**
-
--Add A Disable function for TeamSpeak 3 Stats.
 
 **Setup**
 
@@ -29,3 +23,12 @@ Replace ip:port with your server ip:port!
 Copy this: ```array_push($links, addLink("https://forums.yourwebsitm.com;Forums"));```
 
 Edit https://forums.yourwebsite.com to the location you want the url to point, and edit ;Forums, to what you want the button to say.
+
+**Known Problems:**
+
+No Known problems.
+
+**ToDo:**
+
+-Add A Disable function for TeamSpeak 3 Stats.
+
