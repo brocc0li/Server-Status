@@ -1,8 +1,8 @@
 /*
 -------------------------------------------
-|	Game Server Status					  |	
-|	Creator: Broccoli_Go 				  |
-|	Email: contact@broccoligo.com		  |
+|	Game Server Status		  |	
+|	Creator: Broccoli_Go 		  |
+|	Email: contact@broccoligo.com	  |
 -------------------------------------------
 */
 <!DOCTYPE html>
@@ -16,7 +16,6 @@ include ("includes/inc.php");
     <title><?php echo $title; ?></title>
     <meta name="description" content="Provided by Broccoli_Go" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="broccoligo.com">
 
 
 
