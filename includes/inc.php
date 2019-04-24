@@ -21,7 +21,7 @@ try {
 //Game Server Stuff
 function query_source($address)
   {
-	$steamApiKey = "885F0D0409C9151DC37B5350BD9A951A"; // Can be found at https://steamcommunity.com/dev/	
+	$steamApiKey = ""; // Can be found at https://steamcommunity.com/dev/	
     $array = explode(":", $address);
 
     $server['ip']     = $array[0];
