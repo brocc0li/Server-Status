@@ -15,6 +15,8 @@ Teamspeak 3.
 
 3: Edit line 15, replace YourHomePageURL.com with your website URL.
 
+4: inc.php Edit line 24 $steamApiKey = "YOUR API KEY";
+
 **Add More Servers**
 
 Copy This:  ```array_push($address, query_source("94.23.153.176:28015"));```
