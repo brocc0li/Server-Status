@@ -13,12 +13,12 @@ $logo = 		"logo.png"; //Header Menu Image / Logo Image
 
 //Header URL's
 $home      = "YourHomePageURL.com"; //Home Page URL 
-
 $links = array(); // DO NOT TUTCH
 array_push($links, addLink("https://forums.yourwebsitm.com;Forums")); // Copy This. Change URL to what ever URL you want, and change ;Forums to what ever you want. NOTE Remember to have it like this: website.com;WebsIte
 
 
 //Remember to change The SteamAPI key in file inc.php line number 24
+
 
 //Game Server Settings.
 $address = array(); // DO NOT TUTCH

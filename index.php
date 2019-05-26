@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <?php
+
+/*
+-------------------------------------------
+|	Game Server Status					  |	
+|	Creator: Broccoli_Go 				  |
+|	Email: contact@broccoligo.com		  |
+-------------------------------------------
+*/
 include ("includes/inc.php");
 ?>
 <html lang="en">
@@ -72,7 +80,7 @@ include ("includes/inc.php");
 						<?php foreach($address as $sresult) { ?>
                         <li class="nav-item">
                             <a class="nav-link" href="#<?php echo $sresult["gamedir"]?>" role="tab" data-toggle="tab">[<?php echo $sresult["gamedir"]?>] <?php
-														if(!$sresult["players"] == ''){
+														if(!$sresult["name"] == ''){
 															echo $sresult["name"];
 														 } else{
 															echo "<span style='color: red;'>Offline</span>";
@@ -126,7 +134,7 @@ include ("includes/inc.php");
 												<thead class='thead-inverse'>
 													<td>Server Status</td><td class='server_online'>
 													<?php
-														if(!$gresult["players"] == ''){
+														if(!$gresult["name"] == ''){
 															echo "<span style='color: green;'>Online</span>";
 														 } else{
 															echo "<span style='color: red;'>Offline</span>";

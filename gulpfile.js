@@ -1,10 +1,3 @@
-/*
--------------------------------------------
-|	Game Server Status					  |	
-|	Creator: Broccoli_Go 				  |
-|	Email: contact@broccoligo.com		  |
--------------------------------------------
-*/
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var pkg = require('./package.json');
