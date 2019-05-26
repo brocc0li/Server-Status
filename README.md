@@ -1,8 +1,11 @@
 # Server-Status
 
 Supported Games:
+
 Almost everygame that is within the Steam Liberary.
+
 Supported VOIP:
+
 Teamspeak 3.
 
 **Setup**
