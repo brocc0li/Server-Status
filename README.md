@@ -43,3 +43,4 @@ No Known problems.
 - Add support for non-Steam Games. Minecraft etc...
 - Add support for change of the Favicons and og: info
 
+Demo: https://servers.solitudegaming.com
